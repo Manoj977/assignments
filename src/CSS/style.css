@@ -1,0 +1,70 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header__link ul {
+  display: flex;
+  margin-top: 30px;
+}
+.header__link ul li {
+  list-style: none;
+  margin-inline: 20px;
+}
+.🏞️ {
+  border: 1px solid;
+  height: 50vh;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.🏞️ > .🏠 {
+  font-size: 40px;
+}
+.categoryShown {
+  margin-top: 20px;
+}
+.content {
+  display: flex;
+}
+.success,
+.success:hover,
+.success:focus {
+  background-color: #198754;
+  border: #ccc;
+}
+.danger,
+.danger:hover,
+.danger:focus {
+  background-color: #c32d13;
+  border: #ccc;
+}
+.product_image {
+  width: 50px;
+  margin-left: 30px;
+}
+.action {
+  text-align: center;
+}
+tr {
+  height: 124px;
+}
+
+.Price, .Name{
+  margin-inline: 30px;
+  align-items: center;
+  display: flex;
+  font-size: 25px;
+  float: right;
+}
+.Price p,.Name p{
+  margin-top: 20px;
+}
+.button {
+  background-color: wheat;
+  display: inline-block !important;
+  align-items: center;
+  margin: 10px !important;
+  padding: 10px !important;
+  border: none !important;
+}
